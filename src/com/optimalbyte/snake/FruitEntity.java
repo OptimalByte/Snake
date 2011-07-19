@@ -53,10 +53,6 @@ public class FruitEntity extends Entity {
 	
 	/**
 	 * Spawns the fruit at a randomly generated spot in the game.
-	 *
-	 * TODO: This little algorithim I use for obtaining the random tiles is horribly
-	 * inaccurate, and really needs to be worked over.
-	 *
 	 */
 	public void spawnFruit() {
 		Rectangle tile = game.getTiles().get(rand.nextInt(game.getTiles().size()));

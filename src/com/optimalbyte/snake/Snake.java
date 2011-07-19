@@ -7,7 +7,7 @@ import java.awt.Toolkit;
 import javax.swing.JFrame;
 
 /**
- * The bootstrap class for this game.
+ * The bootstrap for this game.
  *
  * @author samuraiblood2
  */
